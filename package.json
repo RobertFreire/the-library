@@ -10,6 +10,10 @@
     "@types/node": "^16.7.13",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.7",
+    "prettier": "^3.3.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.23.1",
@@ -22,7 +26,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prepare": "husky install"
   },
   "eslintConfig": {
     "extends": [
@@ -30,6 +35,12 @@
       "react-app/jest"
     ]
   },
+  "lint-staged": {
+		"*/.{js,jsx,ts,tsx}": [
+			"yarn prettier --write",
+			"yarn eslint --fix"
+		]
+	},
   "browserslist": {
     "production": [
       ">0.2%",
