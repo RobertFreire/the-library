@@ -10,12 +10,16 @@
     "@types/node": "^16.7.13",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
+    "currency-codes": "^2.1.0",
     "eslint-config-prettier": "^9.1.0",
+    "feather-icons": "^4.29.2",
     "husky": "^9.0.11",
     "lint-staged": "^15.2.7",
     "prettier": "^3.3.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-feather": "^2.0.10",
+    "react-modal": "^3.16.1",
     "react-router-dom": "^6.23.1",
     "react-scripts": "5.0.1",
     "styled-components": "^6.1.11",
@@ -36,11 +40,11 @@
     ]
   },
   "lint-staged": {
-		"*/.{js,jsx,ts,tsx}": [
-			"yarn prettier --write",
-			"yarn eslint --fix"
-		]
-	},
+    "*/.{js,jsx,ts,tsx}": [
+      "yarn prettier --write",
+      "yarn eslint --fix"
+    ]
+  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -52,5 +56,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/feather-icons": "^4.29.4",
+    "@types/react-modal": "^3.16.3"
   }
 }
