@@ -16,6 +16,7 @@ export const LeftContainer = styled.div`
   & > p {
     font-size: 1rem;
     padding: 2rem;
+    color: var(--dark-gray);
   }
 
   & a {
