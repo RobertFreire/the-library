@@ -36,13 +36,13 @@ export const GlobalTheme = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: "DM Sans", sans-serif;
     
   }
 
   html, body {
     height: 100%;
-    background-color: #f0f4f9;
+    background-color: #F6F7F9;
   }
 
   html {
@@ -68,7 +68,7 @@ export const GlobalTheme = createGlobalStyle`
     border: none;
     transition: all 0.2s;
     -webkit-font-smoothing: antialiased;
-    font-family: 'Poppins', sans-serif;
+   font-family: "DM Sans", sans-serif;
     &:hover {
       filter: brightness(0.9);
     }
@@ -84,7 +84,7 @@ export const GlobalTheme = createGlobalStyle`
   }
   input {
     -webkit-font-smoothing: antialiased;
-    font-family: 'Poppins', sans-serif;
+   font-family: "DM Sans", sans-serif;
     &:disabled {
       opacity: .75;
       cursor: not-allowed;
