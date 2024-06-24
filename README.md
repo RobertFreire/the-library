@@ -1,46 +1,42 @@
-# Getting Started with Create React App
+# The Library - Desafio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Olá! Esse é um desafio tecnico para testar minhas habilidade em desenvolvimento Front-End no framework React!
 
-## Available Scripts
+## Dependencias
 
-In the project directory, you can run:
+- Node v20.12.2
+- React v18.0.0
+- yarn v1.22.22 (outras versões funcionam)
 
-### `yarn start`
+## Como rodar o projeto?
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Para rodar o projeto, é necessário que você instale todas as dependências:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```bash
+yarn
+```
 
-### `yarn test`
+Inicialize o projeto:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+yarn start
+```
 
-### `yarn build`
+Rode os testes:
+```bash
+yarn test
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Para manter um projeto limpo e organizado, está sendo utilizado o Eslint (Prettier) juntamente ao Husky.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+yarn prepare
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Duvidas?
 
-### `yarn eject`
+Em caso de duvidas, peço que entre em contato comigo:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+[Linkedin](https://www.linkedin.com/in/robert-freire-085b94163/)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
